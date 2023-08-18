@@ -112,3 +112,51 @@ function prew(){
     x[testi_flag].style="display:flex;";
     document.getElementById("numm").innerHTML=`0${testi_flag+1}/03`;
 }
+
+// window.onkeypress = function(event) {
+//     if(event.key==="ArrowLeft"){
+//         console.log("true");
+//         if(count==0){
+//             count=7;
+//             slideImage();
+//         }
+//         else{
+//             count--;
+//             slideImage();
+//         }
+//     }
+//     else if(event.key==="ArrowRight"){
+//         if(count==7){
+//             count=0;
+//             slideImage();
+//         }
+//         else{
+//             count++;
+//             slideImage();
+//         }
+//     }
+//   };
+  window.addEventListener("keyup", function(event) {
+    if (event.key === "ArrowUp") {
+    } else if (event.key === "ArrowLeft") {
+        
+        if(count==0){
+            count=7;
+            slideImage();
+        }
+        else{
+            count--;
+            slideImage();
+        }
+    } else if (event.key === "ArrowRight") {
+        if(count==7){
+            count=0;
+            slideImage();
+        }
+        else{
+            count++;
+            slideImage();
+        }
+    }
+  });
+  
