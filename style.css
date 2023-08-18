@@ -1,0 +1,1522 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #1b1b1b;
+  margin: 0px;
+}
+/* INDEX */
+#indexbody{
+    display: flex;
+    flex-flow: row wrap;
+    height: 98vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+}
+
+/* INTRO CARD  */
+#SelfCard{
+    box-sizing: border-box;
+    width: 27%;
+    border: 1px solid #C7C7C7;
+    padding: 2rem;
+    padding-left: 3rem;
+    margin: 2rem 2rem 2rem 2rem;
+    height: 96%;
+    border-radius: 30px;
+}
+#mypic {
+  width: 25rem;
+  border-radius: 3rem;
+}
+#about_photograph {
+  width: 25rem;
+  border-radius: 3rem;
+}
+.whitetxt {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+.greenicon {
+  color: #14cf7f;
+}
+.social_icons{
+  font-size: 2rem;
+  border: 1px solid #14cf7f;
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  list-style-type: none;
+  border-radius: 50%;
+  margin-right: 3rem;
+}
+#abt {
+  display: flex;
+}
+#abt_icons ul {
+  margin: 13px;
+  text-align: center;
+  padding-left: 1rem;
+  border-right: 3px solid #14cf7f;
+}
+#_abt {
+  width: 23rem;
+  display: block;
+}
+#name {
+  text-align: right;
+  margin-bottom: 0px;
+  font-size: 3rem;
+  font-family: "Exo", sans-serif;
+}
+#webdev {
+  text-align: right;
+  font-size: 1.7rem;
+  font-family: "Exo", sans-serif;
+  margin-top: 0.5rem;
+}
+#my_mail{
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem 0px 1rem 0px;
+    font-family: "Exo", sans-serif;
+    font-weight:500;
+}
+#my_address{
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0px;
+}
+#copyright{
+    color: #CFCFCF;
+    text-align: center;
+    /* letter-spacing: 0.15rem; */
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+#abt_button{
+    width: 25rem;
+    background-color: #14CF7F;
+    color: #000000;
+    text-align: center;
+    border-radius: 2.5rem;
+    margin-left: 15%;
+}
+#cnt{
+    background-color: #14CF7F;
+    color: #000000;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    /* width: 90%; */
+    border-radius: 2.5rem;
+    /* margin-left: 25%; */
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    margin-top: 8rem;
+}
+
+/* INTRO CARD COMPLETED */
+
+/* Details starts */
+#information{
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    display: inline-block;
+    position: relative;
+    min-height: 96%;
+}
+#intro{
+    color: #CACACA;
+    width: 10rem;
+    border: 0.7px solid #CACACA;
+    text-align: center;
+    border-radius: 30px;
+    font-family: "Exo", sans-serif;
+    padding: 0.3rem 3.7rem;
+}
+.colorblue{
+  color: #14CF7F;
+}
+#intro_text{
+  font-size: 8rem;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500;
+
+}
+#intro_text p{
+  margin-top: 5.1rem;
+}
+#subintro{
+  /* display: inline; */
+  color: #CFCFCF;
+  font-size: 1.7rem;
+  font-weight: 300;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  font-family: "Exo", sans-serif;
+}
+
+
+#buttons{
+  display: flex;
+  float: left;
+  margin-top: 11.6rem;
+}
+#btn{
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+  color: #B4B4B4;
+  /* position: inherit; */
+  font-size: 2.4rem;
+  /* padding: 1.5rem 1.5rem 1.5rem 1.5rem; */
+  padding: 1rem;
+  height: 5rem;
+  width: 5rem;
+  margin-top: 1rem;
+  margin-right: 10rem;
+  border: 1px solid #b4b4b4;
+  border-radius: 50%;
+  /* position: absolute; */
+  /* bottom: 2rem; */
+}
+.nav_list{
+  float: left;
+  padding: 1.2rem;
+  color: #b4b4b4;
+  font-size: 2rem;
+  list-style-type: none;
+  /* position: absolute;
+  bottom: 2rem; */
+}
+
+#nav_ul{
+  border: 1px solid #b4b4b4;
+  border-radius: 3rem;
+  min-width:40rem;
+}
+
+#next{
+  color: #14CF7F;
+  display: flex;
+  float: right;
+  margin-top: 3.5rem;
+  font-size: 8rem;
+  /* font-weight: 400; */
+}
+
+.current{
+  color: #14CF7F;
+}
+
+/* About  */
+/* About Me  */
+#aboutbody{
+  display: flex;
+  /* flex-flow: row wrap; */
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+#about_quote{
+  font-size: 5rem;
+}
+#about_quote ,p{
+  margin-bottom: 0px;
+}
+#aboutme{
+  display: flex;
+  flex-flow: row wrap;
+  height: 98vh;
+}
+#About{
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 3rem;
+  width: 60vw;
+  font-family: 'Exo 2', sans-serif;
+}
+#by{
+  font-size: 2rem;
+  color: #CFCFCF;
+  font-weight: 300;
+  float: right;
+  margin-top: 0px;
+}
+#myintro{
+    color: #CFCFCF;
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family: "Exo", sans-serif;
+    text-align: justify;
+    margin-top: 12rem;
+}
+
+#endp{
+  margin-bottom: 5rem;
+}
+
+#education{
+  border-left: 2px solid #D9D9D9;
+  padding-top: 0px;
+  /* height: 75vh; */
+}
+
+.circle{
+  box-sizing: border-box;
+  height: .5rem;
+  width: .5rem;
+  border: 10px solid #D9D9D9;
+  border-radius: 50%;
+  margin: -1.1rem;
+  /* display: inline-block; */
+}
+#grad{
+  display: flex;
+  height: 5rem;
+  /* border: 2px solid #14cf7f; */
+  border-left: none;
+  flex-flow: row wrap;
+  justify-self: flex-start;
+  align-items: flex-start;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+#resumebody{
+  display: flex;
+  /* flex-flow: row wrap; */
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+.edu_ul{
+  margin: -1.5rem 0px 0px 0px;
+  font-family: 'Exo 2', sans-serif;
+  list-style-type: none;
+  font-size: 2rem;
+}
+.year{
+  font-family: 'Exo', sans-serif;
+  margin-bottom: .7rem;
+  font-size: 1.5rem;
+}
+.heading{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Exo 2', sans-serif;
+}
+.subtxt{
+  font-size: 1.7rem;
+  color: #CFCFCF;
+  margin-bottom: .5rem;
+  font-family: 'Exo', sans-serif;
+}
+#school{
+    display: flex;
+    height: 5rem;
+    /* border: 2px solid #14cf7f; */
+    border-left: none;
+    flex-flow: row wrap;
+    justify-self: flex-start;
+    align-items: flex-start;
+    margin-top: 5rem;
+    /* margin-bottom: 10rem; */
+  
+}
+/* For Chrome*/
+#container::-webkit-scrollbar{
+  display: none;
+}
+/* For Firefox */
+#container{
+  scrollbar-width: none;
+}
+#container{
+  /* border: 1px solid green; */
+  padding-left: 1rem;
+  overflow: auto;
+  max-height: 50vh;
+  
+  
+}
+
+#wd{
+  border: 1px solid #878787;
+  border-radius: 1.5rem;
+  height: 18rem;
+  margin-top: 5rem;
+  min-width: 5rem;
+  margin-bottom: 16rem;
+}
+.ul{
+  list-style-type: none;
+}
+#btm{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 4rem;
+  padding: 0px 3rem;
+  font-size: 1.5rem;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+}
+.sze{
+  font-size: 2.5rem;
+}
+.inf{
+  width: 75rem;
+}
+#skillsset{
+  display: flex;
+  width: 70rem;
+  height: 38rem;
+  /* border: 1px solid #D9D9D9; */
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin-right: 15rem;
+  margin-top: 3rem;
+  margin-bottom: -2rem;
+}
+.skils{
+  width: 5rem;
+  height: 5rem;
+}
+.dskils{
+  width: 10rem;
+  height: auto;
+}
+
+.icon_set{
+  box-sizing: border-box;
+  width: 12rem;
+  height: 12rem;
+  border: 1px solid #D9D9D9;
+  margin: 2rem;
+  padding: 3.5rem 1rem 1rem 3.2rem;
+  border-radius: 50%;
+}
+.d_set{
+  padding: 2.5rem 1rem 1rem 1rem;
+}
+.desc{
+  margin-left: 6rem;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400;
+}
+#prog{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+/* Projects */
+
+/* For Chrome  */
+#Projects::-webkit-scrollbar{
+  display: none;
+}
+
+/* For FireFox */
+#Projects{
+  scrollbar-width: none;
+}
+#Projects{
+  max-width: 90rem;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 4rem;
+  max-height: 40rem;
+  overflow: auto;
+}
+#buttonss{
+  display: flex;
+  float: left;
+  margin-top: 6.7rem;
+}
+.pro_img{
+  width: 34rem;
+}
+.Pro_container{
+  width: 35rem;
+  background-color: #D9D9D9;
+  margin: 2rem;
+  border-radius: 3rem;
+  border: 1px solid #D9D9D9;
+  padding: 1rem;
+}
+
+/* testimonal */
+#testibody{
+  display: flex;
+  /* flex-flow: row wrap; */
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+  #testi_cover{
+    margin-top: 3rem;
+  }
+    .testi_content{
+      /* width: 35rem; */
+      display: flex;
+      flex-flow: row wrap;
+      padding: 2rem;
+      height: 20rem;
+      padding-right: 4rem;
+      border: 1px solid #878787;
+      max-width: 80%;
+      border-radius: 3rem;
+    }
+
+    #testi_client{
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+    }
+
+
+        .client_img{
+          font-size: 3rem;
+          border-radius: 50%;
+        }
+
+      #Creator{
+        list-style-type: none;
+        padding-left: 1.5rem;
+      }
+        #Creator .name{
+          font-size: 3rem;
+          font-family: 'Exo 2', sans-serif;
+        }
+        #Creator .deg{
+          font-size: 1rem;
+          font-family: 'Exo', sans-serif;
+        }
+    
+    #testi_review{
+      text-align: right;
+     min-width: 100%;
+      /* border: 1px solid grey; */
+      height: auto;
+      padding:0px 0rem 3rem 6rem;
+      /* margin-left: 5rem; */
+      font-size: 1.2rem;
+      font-family: 'Exo', sans-serif;
+      
+      color: #CFCFCF;
+    }    
+
+      #rvw{
+        text-align: left;
+        width: 50rem;
+        font-weight: 300;
+      }
+      #navi{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 25%;
+        margin-top: 2rem;
+      }
+      #navi .bar{
+        font-family: 'Exo', sans-serif;
+        color:#C4C4C4;
+        font-size: 2.5rem;
+        width: 3rem;
+        border: 1px solid #C4C4C4;
+        border-radius: 50%;
+        padding: 1rem 1rem 1rem 2rem;
+
+      }
+      .testi_no{
+        font-size: 2rem;
+        margin-top: 0px;
+      }
+
+/* Contact Us Page */
+
+#Contactbody{
+    display: flex;
+    /* flex-flow: row wrap; */
+    height: 98vh;
+    width: 100vw;
+
+}
+#contact_me_mail{
+  margin-left: 3rem;
+  font-family: 'Exo', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: #CACACA;
+}
+
+#my_information{
+  display: flex;
+  flex-flow: row wrap;
+  /* border: 1px solid #FFFFFF; */
+  /* margin-top: 2.5rem; */
+  padding: 3rem;
+  justify-content: space-between;
+}
+
+.para_div{
+/* margin: 1rem; */
+/* border: 1px solid #D9D9D9; */
+width: 40%;
+}
+.para_head{
+  font-size: 2rem;
+  font-family: 'Exo', sans-serif;
+  color:#b4b4b4;
+}
+
+.para_body{
+  font-family: 'Exo', sans-serif;
+  text-decoration: none;
+  /* color: #B4B4B4; */
+  color: white;
+  font-size: 2.2rem;
+}
+
+/* Page Changing Efect */
+#servicebody{
+  display: flex;
+  /* flex-flow: row wrap; */
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+#skillsbody{
+  display: flex;
+  /* flex-flow: row wrap; */
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+#projectbody{
+  display: flex;
+  /* flex-flow: row wrap; */
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+
+
+.box{
+  transition: 1s;
+}
+#slider_container{
+  height: 100vh;
+ max-width: 100vw;
+  overflow-X : hidden;
+  position: relative;
+}
+.zoom:hover{
+  transition: .2s;
+  transform: scale3d(1.4,1.4,1.4);
+}
+.anch{
+  text-decoration: none;
+}
+.zum:hover{
+  transform: .3s;
+  transform: scale3d(1.01,1.01,1.01);
+}
+/* .dsply{
+  display: none;
+} */
+
+/* Responsive */
+
+@media screen and (max-width: 1300px) {
+  html{
+    font-size: 45%
+  }
+
+  #SelfCard {
+    box-sizing: border-box;
+    width: auto;
+    border: 1px solid #C7C7C7;
+    padding: 2rem;
+    padding-left: 3rem;
+    margin: 2rem 2rem 2rem 2rem;
+    height: 96%;
+    border-radius: 30px;
+}
+
+#information {
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: inline-block;
+    position: relative;
+    min-height: 96%;
+}
+
+#next {
+  color: #14CF7F;
+  display: flex;
+  float: right;
+  /* margin-top: 15.5rem; */
+  font-size: 8rem;
+  /* font-weight: 400; */
+}
+#buttons {
+  display: flex;
+  float: left;
+  margin-top: 24.6rem;
+}
+#Projects {
+  max-width: 90rem;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 13rem;
+  margin-bottom: 4rem;
+  max-height: 40rem;
+  overflow: auto;
+}
+
+
+#container {
+    /* border: 1px solid green; */
+    padding-left: 1rem;
+    overflow: auto;
+    margin-bottom: -18rem;
+    max-height: 50vh;
+}
+#testi_cover {
+  margin-top: 8rem;
+}
+}
+
+@media screen and (max-width: 990px){
+  html{
+    font-size: 40%;
+  }
+  #SelfCard {
+    box-sizing: border-box;
+    width: auto;
+    border: 1px solid #C7C7C7;
+    padding: 7rem 2rem 2rem 3rem;
+    margin: 2rem 2rem 2rem 2rem;
+    height: 96%;
+    border-radius: 30px;
+
+}
+#cnt {
+  background-color: #14CF7F;
+  color: #000000;
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  /* width: 90%; */
+  border-radius: 2.5rem;
+  /* margin-left: 25%; */
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  margin-top: 15rem;
+}
+#subintro {
+  /* display: inline; */
+  color: #CFCFCF;
+  font-size: 1.7rem;
+  font-weight: 300;
+  margin-top: 5rem;
+  margin-bottom: 16rem;
+  font-family: "Exo", sans-serif;
+}
+#wd {
+  border: 1px solid #878787;
+  border-radius: 1.5rem;
+  height: 18rem;
+  margin-top: 5rem;
+  min-width: 5rem;
+  margin-bottom: 22rem;
+}
+#skillsset {
+  display: flex;
+  width: 70rem;
+  height: 38rem;
+  /* border: 1px solid #D9D9D9; */
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin-right: 15rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+#Projects {
+  max-width: 90rem;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 13rem;
+  margin-bottom: 12rem;
+  max-height: 40rem;
+  overflow: auto;
+}
+#my_information {
+  display: flex;
+  flex-flow: row wrap;
+  /* border: 1px solid #FFFFFF; */
+  /* margin-top: 13.5rem; */
+  padding: 3rem;
+  margin-bottom: 6rem;
+  justify-content: space-between;
+}
+#testi_cover {
+  margin-top: 3rem;
+  margin-bottom: 12rem;
+}
+}
+
+@media screen and (max-width: 895px){
+  html{
+    font-size: 30%;
+  }
+  #SelfCard {
+    box-sizing: border-box;
+    width: auto;
+    border: 1px solid #C7C7C7;
+    padding: 7rem 2rem 2rem 3rem;
+    margin: 2rem 2rem 2rem 2rem;
+    height: 70vh;
+    border-radius: 30px;
+}
+  #information {
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    display: inline-block;
+    position: relative;
+    min-height: 96%;
+}
+#myintro {
+  color: #CFCFCF;
+  font-size: 1.7rem;
+  font-weight: 300;
+  font-family: "Exo", sans-serif;
+  text-align: justify;
+  margin-top: 12rem;
+  margin-bottom: 13rem;
+}
+#container {
+  /* border: 1px solid green; */
+  padding-left: 1rem;
+  overflow: auto;
+  margin-bottom: -7rem;
+  max-height: 50vh;
+}
+.circle {
+  box-sizing: border-box;
+  height: 0.5rem;
+  width: 0.5rem;
+  border: 1rem solid #D9D9D9;
+  border-radius: 50%;
+  margin: -1.0999999999999996rem;
+  /* display: inline-block; */
+}
+#subintro {
+  /* display: inline; */
+  color: #CFCFCF;
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-top: 5rem;
+  margin-bottom: 16rem;
+  font-family: "Exo", sans-serif;
+}
+#intro {
+  color: #CACACA;
+  width: 10rem;
+  border: 0.7px solid #CACACA;
+  text-align: center;
+  border-radius: 30px;
+  font-family: "Exo", sans-serif;
+  padding: 0.3rem 3.7rem;
+  font-size: 1.3rem;
+}
+#webdev {
+  text-align: right;
+  font-size: 2rem;
+  font-family: "Exo", sans-serif;
+  margin-top: 0.5rem;
+}
+#my_mail {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 3rem 0px 1rem 0px;
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+}
+#my_address {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.social_icons {
+  font-size: 3rem;
+  border: 1px solid #14cf7f;
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  list-style-type: none;
+  border-radius: 50%;
+  margin-right: 3rem;
+}
+#cnt {
+  background-color: #14CF7F;
+  color: #000000;
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  /* width: 90%; */
+  border-radius: 2.5rem;
+  /* margin-left: 25%; */
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  margin-top: 15rem;
+}
+#myintro {
+  color: #CFCFCF;
+  font-size: 2.3rem;
+  font-weight: 300;
+  font-family: "Exo", sans-serif;
+  text-align: justify;
+  margin-top: 12rem;
+  margin-bottom: 13rem;
+}
+#container {
+  /* border: 1px solid green; */
+  padding-left: 1rem;
+  overflow: auto;
+  margin-bottom: 3rem;
+  max-height: 50vh;
+}
+.heading {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-family: 'Exo 2', sans-serif;
+}
+#wd {
+  border: 1px solid #878787;
+  border-radius: 1.5rem;
+  height: 25rem;
+  margin-top: 10rem;
+  min-width: 5rem;
+  margin-bottom: 14rem;
+}
+#skillsset {
+  display: flex;
+  width: 70rem;
+  height: 38rem;
+  /* border: 1px solid #D9D9D9; */
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin-right: 15rem;
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+}
+#testi_cover {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+#my_information {
+  display: flex;
+  flex-flow: row wrap;
+  /* border: 1px solid #FFFFFF; */
+  /* margin-top: 13.5rem; */
+  padding: 3rem;
+  margin-bottom: 8rem;
+  justify-content: space-between;
+}
+.subtxt {
+  font-size: 2.2rem;
+  color: #CFCFCF;
+  margin-bottom: 0.5rem;
+  font-family: 'Exo', sans-serif;
+}
+.icon_set {
+  box-sizing: border-box;
+  width: 14rem;
+  height: 14rem;
+  border: 1px solid #D9D9D9;
+  margin: 2rem;
+  padding: 2.5rem 1rem 1rem -4.800000000000011rem;
+  border-radius: 50%;
+}
+#btm {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 4rem;
+  padding: 0px 3rem;
+  font-size: 2.5rem;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+}
+#Projects {
+  max-width: 101rem;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 13rem;
+  margin-bottom: 12rem;
+  max-height: 40rem;
+  overflow: auto;
+}
+.pro_img {
+  width: 60rem;
+}
+.Pro_container {
+  width: 61rem;
+  background-color: #D9D9D9;
+  margin: 2rem;
+  border-radius: 3rem;
+  border: 1px
+px
+solid #D9D9D9;
+  padding: 1rem;
+}
+.pro_desp {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0px;
+}
+#Projects {
+  max-width: 101rem;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 13rem;
+  margin-bottom: 12rem;
+  max-height: 43rem;
+  overflow: auto;
+}
+#rvw {
+  text-align: left;
+  width: 50rem;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 2rem;
+  width: 98%;
+}
+.testi_content {
+  /* width: 104rem; */
+  padding-left: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 2rem;
+  height: 31rem;
+  padding-right: 11rem;
+  border: 1px solid #878787;
+  max-width: 80%;
+  border-radius: 3rem;
+}
+#Creator .deg {
+  font-size: 1.9rem;
+  font-family: 'Exo', sans-serif;
+}
+#endp {
+  margin-bottom: -8rem;
+}
+#About {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 6rem;
+  width: 60vw;
+  font-family: 'Exo 2', sans-serif;
+}
+#container {
+  /* border: 1px solid green; */
+  padding-left: 1rem;
+  overflow: auto;
+  margin-bottom: -4rem;
+  max-height: 50vh;
+}
+.year {
+  font-family: 'Exo', sans-serif;
+  /* margin-bottom: -0.3000000000000007rem; */
+  font-size: 3rem;
+}
+#grad {
+  display: flex;
+  height: 14rem;
+  /* border: 2px solid #14cf7f; */
+  border-left: none;
+  flex-flow: row wrap;
+  justify-self: flex-start;
+  align-items: flex-start;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+#education {
+  border-left: 2px solid #D9D9D9;
+  padding-top: 0px;
+  /* height: 75vh; */
+  margin-bottom: -29rem;
+}
+}
+@media all and (max-width: 435px){
+  #SelfCard {
+    box-sizing: border-box;
+    width: auto;
+    border: 1px solid #C7C7C7;
+    /* padding: 7rem 2rem 2rem 3rem; */
+    /* margin: 2rem 2rem 2rem 2rem; */
+    height: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: row wrap;
+}
+#abt_button {
+  width: 100%;
+  background-color:#1b1b1b;
+  color: #000000;
+  text-align: center;
+  border-radius: 2.5rem;
+  margin-left: 0px;
+  margin-bottom: 1rem;
+}
+#abt_icons ul {
+  margin: 13px;
+  margin-left: 15rem;
+  text-align: center;
+  padding-left: 1rem;
+  border-right: 3px solid #14cf7f;
+}
+#mypic {
+  width: 38rem;
+  border-radius: 3rem;
+}
+#_abt {
+  width: 100%;
+  display: block;
+}
+#name {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 8rem;
+  margin-top:4.5rem;
+  font-family: "Exo", sans-serif;
+}
+#SelfCard {
+  box-sizing: border-box;
+  width: auto;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #C7C7C7;
+  padding: 1rem 2rem 2rem 3rem;
+  /* margin: 2rem 2rem 2rem 2rem; */
+  /* margin: 0px; */
+  margin-top: 6rem;
+  margin-bottom: 0px;
+  height: 83vh;
+  border-radius: 30px;
+  display: flex;
+  flex-flow: row wrap;
+}
+#webdev {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Exo", sans-serif;
+  /* margin-top: 0.5rem; */
+}
+#abt {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+#cnt {
+  background-color: #14CF7F;
+  color: #000000;
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  /* width: 90%; */
+  border-radius: 2.5rem;
+  /* margin-left: 25%; */
+  padding: 1.5rem;
+  font-size: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.social_icons {
+  font-size: 5rem;
+  border: 1px solid #14cf7f;
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  list-style-type: none;
+  border-radius: 50%;
+  margin-right: 3rem;
+}
+#my_mail {
+  text-align: center;
+  font-size: 4rem;
+  margin: 3rem 0px 1rem 0px;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+}
+#my_address {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 0px;
+  width: 53rem;
+}
+#copyright {
+  color: #CFCFCF;
+  text-align: center;
+  /* letter-spacing: 0.15rem; */
+  margin-top: 2rem;
+  font-size: 2.2rem;
+  width: 45rem;
+}
+#nav_ul {
+  border: 1px solid #b4b4b4;
+  border-radius: 3rem;
+  padding-left: 0px;
+  min-width: 40rem;
+}
+.nav_list {
+  float: left;
+  padding: 1.9rem;
+  color: #b4b4b4;
+  font-size: 4rem;
+  list-style-type: none;
+  
+}
+#btn {
+  text-align: center;
+  box-sizing: border-box;
+  display:none;
+  color: #B4B4B4;
+  /* position: inherit; */
+  font-size: 4rem;
+  /* padding: 1.5rem 1.5rem 1.5rem 1.5rem; */
+  padding: 1rem;
+  height: 8rem;
+  width: 8rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  border: 1px solid #b4b4b4;
+  border-radius: 50%;
+  /* position: absolute; */
+  /* bottom: 2rem; */
+}
+#information {
+  /* display: flex; */
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  margin-top: -1rem;
+  margin-left: 4rem;
+  display: inline-block;
+  position: relative;
+  min-height: auto;
+  height: 100%;
+}
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  order: 5;
+  margin: 0px;
+  margin-left: -2rem;
+  margin-top: 41rem;
+  justify-content: center;
+  width: 100%;
+  /* position: relative; */
+  /* box-sizing: border-box; */
+}
+#buttons {
+  display: flex;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 11px;
+}
+#intro {
+  color: #CACACA;
+  width: 86%;
+  margin-right: 3rem;
+  justify-content: center;
+  border: 0.7px solid #CACACA;
+  text-align: center;
+  border-radius: 30px;
+  font-family: "Exo", sans-serif;
+  padding: 0.3rem 3.7rem;
+  font-size: 3rem;
+  margin-top: 10rem;
+  order: 2;
+}
+#intro_text {
+  font-size: 8rem;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500;
+  order: 3;
+}
+#subintro {
+  margin-left: 4rem;
+  margin-right: 6rem;
+  display: flex;
+  color: #CFCFCF;
+  font-size: 3rem;
+  font-weight: 300;
+  padding-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 16rem;
+  font-family: "Exo", sans-serif;
+  order: 4;
+}
+/* body{
+  position: relative;
+} */
+#next {
+  font-size: 15rem;
+  position: absolute;
+  right: 21px;
+  bottom: 98px;
+}
+.current{
+  color: #14CF7F;
+}
+#intro_text p {
+  margin-top: 12.1rem;
+}
+
+
+/* NEXT PAGE */
+#aboutbody {
+  display: flex;
+  flex-flow: row wrap;
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+#About {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  width: 100vw;
+  font-family: 'Exo 2', sans-serif;
+  position: relative;
+}
+#about_quote {
+  font-size: 5.8rem;
+  margin-left: -4rem;
+  /* margin-right: -4rem; */
+}
+#myintro {
+  color: #CFCFCF;
+  font-size: 2.8rem;
+  font-weight: 300;
+  font-family: "Exo", sans-serif;
+  text-align: revert;
+  margin-top: 12rem;
+  margin-bottom: -20rem;
+}
+#about_quote p{
+  margin-top: 0px;
+}
+
+/* Education And Certification */
+#resumebody {
+  display: flex;
+  flex-flow: row wrap;
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+#intro_text p {
+  margin-top: 8.1rem;
+}
+#container {
+  /* border: 1px solid green; */
+  padding-left: 1rem;
+  overflow: auto;
+  margin-top: 4rem;
+  margin-bottom: -8rem;
+  max-height: 50vh;
+  margin-right: 4rem;
+  border-right: 3px solid #D9D9D9;
+}
+
+/* SERVICE PAGE */
+#servicebody {
+  display: flex;
+  flex-flow: row wrap;
+  height: 98vh;
+  width: 100vw;
+  position: relative;
+  /* border: 1px solid red; */
+}
+#wd {
+  border: 1px solid #878787;
+  border-radius: 1.5rem;
+  height: 25rem;
+  margin-top: 22rem;
+  min-width: 5rem;
+  padding-top: 6rem;
+  width: 95%;
+  margin-bottom: 44rem;
+}
+
+/* Skill Page */
+#skillsbody {
+  display: flex;
+  flex-flow: row wrap;
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+#skillsset {
+  display: flex;
+  width: 100%;
+  height: 52rem;
+  /* border: 1px solid #D9D9D9; */
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin-right: 15rem;
+  margin-top: 10rem;
+  margin-bottom: -4rem;
+}
+.desc {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+/* Projects Page */
+#projectbody {
+  display: flex;
+  flex-flow: row wrap;
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+
+#Projects {
+  max-width: 101rem;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 13rem;
+  margin-bottom: -15rem;
+  max-height: 53rem;
+  overflow: auto;
+}
+
+/* TestiMonial */
+#testibody {
+  display: flex;
+  flex-flow: row wrap;
+  height: 98vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+#navi {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+  margin-top: 2rem;
+}
+.testi_content {
+  /* width: 104rem; */
+  padding-left: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 2rem;
+  height: 43rem;
+  padding-right: 11rem;
+  border: 1px solid #878787;
+  max-width: 80%;
+  border-radius: 3rem;
+}
+#testi_cover {
+  margin-top: 8rem;
+  margin-bottom: -6rem;
+}
+
+/* Contact Me Page */
+#Contactbody {
+  display: flex;
+  flex-flow: row wrap;
+  height: 98vh;
+  width: 100vw;
+}
+.para_body {
+  font-family: 'Exo', sans-serif;
+  text-decoration: none;
+  /* color: #B4B4B4; */
+  color: white;
+  font-size: 2.9rem;
+}
+#my_information {
+  display: flex;
+  flex-flow: row wrap;
+  /* border: 1px solid #FFFFFF; */
+  /* margin-top: 13.5rem; */
+  padding: 3rem;
+  margin-bottom: 8rem;
+  padding-right: 14rem;
+  justify-content: space-between;
+}
+#contact_me_mail {
+  margin-left: 3rem;
+  font-family: 'Exo', sans-serif;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  color: #CACACA;
+}
+#contact_me_mail p{
+  margin-top: 0px;
+}
+.para_body {
+  font-family: 'Exo', sans-serif;
+  text-decoration: none;
+  /* color: #B4B4B4; */
+  color: white;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+.para_head {
+  font-size: 2.5rem;
+  font-family: 'Exo', sans-serif;
+  color: #b4b4b4;
+}
+.para_div {
+  /* margin: 1rem; */
+  /* border: 1px solid #D9D9D9; */
+  width: 50%;
+  height: 15rem;
+}
+/* Completed for iphone 10 */
+}

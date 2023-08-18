@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SHIVAM TIWARI</title>
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@1,300&family=Lumanosimo&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@1,300&family=Lumanosimo&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ICONS SVG -->
+    <script
+      src="https://kit.fontawesome.com/9b9ff3c79a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- BOOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>  
+   <div id="slider_container"> 
+    <div id="indexbody" class="box" style="position: absolute; " >
+      <div id="SelfCard">
+        <div id="_abt" class="whitetxt">
+          <h1 id="name">Shivam Tiwari</h1>
+          <h4 id="webdev">Web Developer</h4>
+        </div>
+        <div id="abt">
+          <div id="about_photograph">
+            <img
+              id="mypic"
+              src="images/IMG20210406135130.jpg"
+              alt="Picture Of Shivam Tiwari"
+            />
+            <h6 id="my_mail" class="whitetxt">
+              <a class="whitetxt" href="mailto:st472438@gmail.com"
+                >st472438@gmail.com</a
+              >
+            </h6>
+            <h4 id="my_address" class="whitetxt">Lucknow, U.P. , INDIA</h4>
+            <p id="copyright" class="cpytxt">
+              &copy; 2023 Shivam. All Right Reserved.
+            </p>
+          </div>
+          <div id="abt_icons">
+            <ul>
+              <a
+                href="https://www.instagram.com/_pndt_ji/"
+                class="greenicon"
+                target="_blank"
+              >
+                <li class="social_icons zoom"><i class="fa-brands fa-instagram"></i></li>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/shivam-tiwari-1a31a6253/"
+                class="greenicon"
+                target="_blank"
+                ><li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-linkedin"></i></li
+              ></a>
+
+              <a
+                href="https://github.com/Pndt-ji"
+                target="_blank"
+                class="greenicon"
+              >
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-github"></i></li
+              ></a>
+
+              <a href="https://twitter.com/Shivam472438" class="greenicon" target="_blank">
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div id="abt_button">
+         <a href="mailto:st472438@gmail.com"><p id="cnt">
+            <i class="fa-regular fa-envelope"></i> &nbsp; Contact Me
+          </p></a>
+        </div>
+      </div>
+      <div id="information">
+        <div class="whitetxt" id="intro">
+          <i class="bi bi-house"></i> &nbsp;&nbsp; Introduction
+        </div>
+        <div id="intro_text" class="whitetxt">
+          <p>
+            Hello There, I’m <span class="colorblue"> Shivam, </span> <br />
+            Web Developer and <br />
+            Software Engineer
+          </p>
+        </div>
+        <div id="subintro" class="whitetxt">I take pleasure in crafting elegantly simple code that resonates with beauty. <br> My passion lies in the art of simplicity, and I find joy in every line I write.</div>
+        <nav>
+        <div id="buttons">
+          <div id="btn"><a class="whitetxt" onclick="none()"><i class="bi bi-list"></i></a></div>
+          <ul id="nav_ul" class="dsply">
+          <a > <li class="nav_list zoom  current" onclick="display_index();"><i class="bi bi-house"></i></li> </a>
+           <a > <li class="nav_list zoom " onclick="display_about();"><i class="fa-regular fa-user"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_resume();"><i class="bi bi-file-earmark"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_service();"><i class="fa-solid fa-pen-ruler"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_skills();"><i class="bi bi-boxes"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_project();"><i class="bi bi-list-ul"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_testi();"><i class="bi bi-file-earmark-bar-graph"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_Contact();"><i class="fa-regular fa-envelope"></i></li></a>
+            
+          </ul>
+        </div>
+        <div id="next" class="zoom" onclick="next()"><i class="fa-solid fa-angle-right fa-sm"></i>
+        </div>
+      </nav>
+      </div>
+        
+        
+        
+    </div>
+    <div id="aboutbody" class="box" style="position: absolute;">
+      <div id="SelfCard">
+        <div id="_abt" class="whitetxt">
+          <h1 id="name">Shivam Tiwari</h1>
+          <h4 id="webdev">Web Developer</h4>
+        </div>
+        <div id="abt">
+          <div id="about_photograph">
+            <img
+              id="mypic"
+              src="images/IMG20210406135130.jpg"
+              alt="Picture Of Shivam Tiwari"
+            />
+            <h6 id="my_mail" class="whitetxt">
+              <a class="whitetxt" href="mailto:st472438@gmail.com"
+                >st472438@gmail.com</a
+              >
+            </h6>
+            <h4 id="my_address" class="whitetxt">Lucknow, U.P. , INDIA</h4>
+            <p id="copyright" class="cpytxt">
+              &copy; 2023 Shivam. All Right Reserved.
+            </p>
+          </div>
+          <div id="abt_icons">
+            <ul>
+              <a
+                href="https://www.instagram.com/_pndt_ji/"
+                class="greenicon"
+                target="_blank"
+              >
+                <li class="social_icons zoom"><i class="fa-brands fa-instagram"></i></li>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/shivam-tiwari-1a31a6253/"
+                class="greenicon"
+                target="_blank"
+                ><li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-linkedin"></i></li
+              ></a>
+
+              <a
+                href="https://github.com/Pndt-ji"
+                target="_blank"
+                class="greenicon"
+              >
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-github"></i></li
+              ></a>
+
+              <a href="https://twitter.com/Shivam472438" class="greenicon" target="_blank">
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div id="abt_button">
+         <a href="mailto:st472438@gmail.com"><p id="cnt">
+            <i class="fa-regular fa-envelope"></i> &nbsp; Contact Me
+          </p></a>
+        </div>
+      </div>
+      <div id="About">
+        <div class="whitetxt" id="intro">
+          <i class="fa-regular fa-user"></i> &nbsp;&nbsp; About
+        </div>
+        <div id="about_quote" class="whitetxt">
+          <blockquote>
+            <p>
+              “The greater the obstacle, the more
+              <span class="colorblue"> glory</span> in
+              <span class="colorblue"> overcoming</span> it.”
+            </p>
+            <span id="by">-Molières</span>
+          </blockquote>
+        </div>
+        <div id="myintro" class="whitetxt">
+          <p>
+            I'm an enthusiastic web developer proficient in HTML, CSS,
+            JavaScript, and C/C++, crafting captivating and functional websites.
+            Alongside my coding passion, I possess a keen interest in
+            photography. My dedication to continuous learning keeps me at the
+            forefront of industry trends.
+          </p>
+
+          <p>
+            I pride myself on embracing challenges, utilizing the latest trends
+            and technologies, and consistently exceeding expectations.
+          </p>
+
+          <p id="endp">
+            If you're seeking a dedicated web developer with a flair for both
+            innovation and photography, I'm poised to bring your projects to
+            life with a unique blend of skills.
+          </p>
+        </div>
+        <nav>
+          <div id="buttons">
+            <div id="btn"><a class="whitetxt" onclick="none()"><i class="bi bi-list"></i></a></div>
+            <ul id="nav_ul" class="dsply">
+              <a > <li class="nav_list zoom " onclick="display_index();"><i class="bi bi-house"></i></li> </a>
+           <a > <li class="nav_list zoom  current" onclick="display_about();"><i class="fa-regular fa-user"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_resume();"><i class="bi bi-file-earmark"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_service();"><i class="fa-solid fa-pen-ruler"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_skills();"><i class="bi bi-boxes"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_project();"><i class="bi bi-list-ul"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_testi();"><i class="bi bi-file-earmark-bar-graph"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_Contact();"><i class="fa-regular fa-envelope"></i></li></a>
+            </ul>
+          </div>
+          <div id="next" class="zoom" onclick="next()"><i class="fa-solid fa-angle-right fa-sm"></i></div>
+        </nav>
+      </div>
+    </div>
+    <div id="resumebody" class="box" style="position: absolute;">
+      <div id="SelfCard">
+        <div id="_abt" class="whitetxt">
+          <h1 id="name">Shivam Tiwari</h1>
+          <h4 id="webdev">Web Developer</h4>
+        </div>
+        <div id="abt">
+          <div id="about_photograph">
+            <img
+              id="mypic"
+              src="images/IMG20210406135130.jpg"
+              alt="Picture Of Shivam Tiwari"
+            />
+            <h6 id="my_mail" class="whitetxt">
+              <a class="whitetxt" href="mailto:st472438@gmail.com"
+                >st472438@gmail.com</a
+              >
+            </h6>
+            <h4 id="my_address" class="whitetxt">Lucknow, U.P. , INDIA</h4>
+            <p id="copyright" class="cpytxt">
+              &copy; 2023 Shivam. All Right Reserved.
+            </p>
+          </div>
+          <div id="abt_icons">
+            <ul>
+              <a
+                href="https://www.instagram.com/_pndt_ji/"
+                class="greenicon"
+                target="_blank"
+              >
+                <li class="social_icons zoom"><i class="fa-brands fa-instagram"></i></li>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/shivam-tiwari-1a31a6253/"
+                class="greenicon"
+                target="_blank"
+                ><li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-linkedin"></i></li
+              ></a>
+
+              <a
+                href="https://github.com/Pndt-ji"
+                target="_blank"
+                class="greenicon"
+              >
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-github"></i></li
+              ></a>
+
+              <a href="https://twitter.com/Shivam472438" class="greenicon" target="_blank">
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div id="abt_button">
+         <a href="mailto:st472438@gmail.com"><p id="cnt">
+            <i class="fa-regular fa-envelope"></i> &nbsp; Contact Me
+          </p></a>
+        </div>
+      </div>
+      <div id="information">
+        <div class="whitetxt" id="intro">
+            <i class="bi bi-file-earmark"></i> &nbsp;&nbsp; Resume
+        </div>
+        <div id="intro_text" class="whitetxt">
+          <p>
+            Education &<span class="colorblue"> Certification</span>
+          </p>
+        </div>
+
+        <div id="container">
+        <div id="education">         
+          <div id="grad">
+           <div class="circle circletop"></div>
+           <!-- <h2 class="whitetxt year">2021-2025</h2> -->
+            <ul class="edu_ul">
+              <li class="whitetxt year">2021-2025</li>
+              <li class="whitetxt heading">Bachelor Of Technology (CSE)</li>
+              <li class="whitetxt subtxt">Babu Banarsi Das University, Lucknow</li>
+              <li class="whitetxt subtxt">Current CGPA :&nbsp; 8.1</li>
+            </ul>       
+          </div>
+          <div id="grad">
+            <div class="circle circletop"></div>
+            <!-- <h2 class="whitetxt year">2021-2025</h2> -->
+             <ul class="edu_ul">
+               <li class="whitetxt year">2019-2020</li>
+               <li class="whitetxt heading">Intermidiate (C.B.S.E.)</li>
+               <li class="whitetxt subtxt">The City School, Lucknow</li>
+               <li class="whitetxt subtxt">Percentage :&nbsp; 67%</li>
+             </ul>       
+           </div>
+           <div id="grad">
+            <div class="circle circletop"></div>
+            <!-- <h2 class="whitetxt year">2021-2025</h2> -->
+             <ul class="edu_ul">
+               <li class="whitetxt year">2017-2018</li>
+               <li class="whitetxt heading">High School (C.B.S.E.)</li>
+               <li class="whitetxt subtxt">Shivani Public School, Lucknow</li>
+               <li class="whitetxt subtxt">Percentage :&nbsp; 54%</li>
+             </ul>       
+           </div>
+           <div id="school">
+            <div class="circle circletop"></div>
+            <!-- <h2 class="whitetxt year">2021-2025</h2> -->
+             <ul class="edu_ul">
+               <li class="whitetxt year">2023-Present</li>
+               <li class="whitetxt heading">CERTIFICATES</li>
+               <li class="whitetxt subtxt">Introduction to HTML 5 by University of Michigan</li>
+               <li class="whitetxt subtxt">Introduction to CSS 3 by University of Michigan</li>
+               <li class="whitetxt subtxt">Introduction to soft skills by TCS iON</li>
+               <li class="whitetxt subtxt">cimmunication skills by TCS iON</li>
+             </ul>       
+           </div>
+        </div>
+      </div>
+        <nav>
+        <div id="buttons">
+          <div id="btn"><a class="whitetxt" onclick="none()"><i class="bi bi-list"></i></a></div>
+          <ul id="nav_ul" class="dsply">
+            <a > <li class="nav_list zoom " onclick="display_index();"><i class="bi bi-house"></i></li> </a>
+           <a > <li class="nav_list zoom " onclick="display_about();"><i class="fa-regular fa-user"></i></li></a>
+           <a > <li class="nav_list zoom  current" onclick="display_resume();"><i class="bi bi-file-earmark"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_service();"><i class="fa-solid fa-pen-ruler"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_skills();"><i class="bi bi-boxes"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_project();"><i class="bi bi-list-ul"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_testi();"><i class="bi bi-file-earmark-bar-graph"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_Contact();"><i class="fa-regular fa-envelope"></i></li></a>
+            
+          </ul>
+        </div>
+        <div id="next" class="zoom" onclick="next()"><i class="fa-solid fa-angle-right fa-sm"></i>
+        </div>
+      </nav>
+      </div>
+        
+        
+        
+    </div>
+    <div id="servicebody" class="box" style="position: absolute;">
+      <div id="SelfCard">
+        <div id="_abt" class="whitetxt">
+          <h1 id="name">Shivam Tiwari</h1>
+          <h4 id="webdev">Web Developer</h4>
+        </div>
+        <div id="abt">
+          <div id="about_photograph">
+            <img
+              id="mypic"
+              src="images/IMG20210406135130.jpg"
+              alt="Picture Of Shivam Tiwari"
+            />
+            <h6 id="my_mail" class="whitetxt">
+              <a class="whitetxt" href="mailto:st472438@gmail.com"
+                >st472438@gmail.com</a
+              >
+            </h6>
+            <h4 id="my_address" class="whitetxt">Lucknow, U.P. , INDIA</h4>
+            <p id="copyright" class="cpytxt">
+              &copy; 2023 Shivam. All Right Reserved.
+            </p>
+          </div>
+          <div id="abt_icons">
+            <ul>
+              <a
+                href="https://www.instagram.com/_pndt_ji/"
+                class="greenicon"
+                target="_blank"
+              >
+                <li class="social_icons zoom"><i class="fa-brands fa-instagram"></i></li>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/shivam-tiwari-1a31a6253/"
+                class="greenicon"
+                target="_blank"
+                ><li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-linkedin"></i></li
+              ></a>
+
+              <a
+                href="https://github.com/Pndt-ji"
+                target="_blank"
+                class="greenicon"
+              >
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-github"></i></li
+              ></a>
+
+              <a href="https://twitter.com/Shivam472438" class="greenicon" target="_blank">
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div id="abt_button">
+         <a href="mailto:st472438@gmail.com"><p id="cnt">
+            <i class="fa-regular fa-envelope"></i> &nbsp; Contact Me
+          </p></a>
+        </div>
+      </div>
+      <div id="information" class="inf">
+        <div class="whitetxt" id="intro">
+          <i class="fa-solid fa-pen-ruler"></i> &nbsp;&nbsp; Service
+        </div>
+        <div id="intro_text" class="whitetxt">
+          <p>
+            My<span class="colorblue"> Specilization</span>
+          </p>
+        </div>
+        <div id="wd" class="whitetxt">
+          <ul class="ul">
+            <li class="heading">Web Development</li>
+            <li class="subtxt">I build websites with HTML, CSS, JS & BOOTSTRAP</li>
+          </ul>
+          <div id="btm" >
+            <a class="whitetxt"><p class="zoom" onclick="display_project()">See Projects</p></a>
+            <i class="bi bi-file-earmark-code-fill greenicon sze"></i>
+          </div>
+        </div>
+        <nav>
+        <div id="buttons">
+          <div id="btn"><a class="whitetxt" onclick="none()"><i class="bi bi-list"></i></a></div>
+          <ul id="nav_ul" class="dsply">
+           <a > <li class="nav_list zoom " onclick="display_index();"><i class="bi bi-house"></i></li> </a>
+           <a > <li class="nav_list zoom " onclick="display_about();"><i class="fa-regular fa-user"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_resume();"><i class="bi bi-file-earmark"></i></li></a>
+           <a > <li class="nav_list zoom  current" onclick="display_service();"><i class="fa-solid fa-pen-ruler"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_skills();"><i class="bi bi-boxes"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_project();"><i class="bi bi-list-ul"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_testi();"><i class="bi bi-file-earmark-bar-graph"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_Contact();"><i class="fa-regular fa-envelope"></i></li></a>
+            
+          </ul>
+        </div>
+        <div id="next" class="zoom" onclick="next()"><i class="fa-solid fa-angle-right fa-sm"></i>
+        </div>
+      </nav>
+      </div>
+        
+        
+        
+    </div>
+    <div id="skillsbody" class="box" style="position: absolute;">
+      <div id="SelfCard">
+        <div id="_abt" class="whitetxt">
+          <h1 id="name">Shivam Tiwari</h1>
+          <h4 id="webdev">Web Developer</h4>
+        </div>
+        <div id="abt">
+          <div id="about_photograph">
+            <img
+              id="mypic"
+              src="images/IMG20210406135130.jpg"
+              alt="Picture Of Shivam Tiwari"
+            />
+            <h6 id="my_mail" class="whitetxt">
+              <a class="whitetxt" href="mailto:st472438@gmail.com"
+                >st472438@gmail.com</a
+              >
+            </h6>
+            <h4 id="my_address" class="whitetxt">Lucknow, U.P. , INDIA</h4>
+            <p id="copyright" class="cpytxt">
+              &copy; 2023 Shivam. All Right Reserved.
+            </p>
+          </div>
+          <div id="abt_icons">
+            <ul>
+              <a
+                href="https://www.instagram.com/_pndt_ji/"
+                class="greenicon"
+                target="_blank"
+              >
+                <li class="social_icons zoom"><i class="fa-brands fa-instagram"></i></li>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/shivam-tiwari-1a31a6253/"
+                class="greenicon"
+                target="_blank"
+                ><li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-linkedin"></i></li
+              ></a>
+
+              <a
+                href="https://github.com/Pndt-ji"
+                target="_blank"
+                class="greenicon"
+              >
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-github"></i></li
+              ></a>
+
+              <a href="https://twitter.com/Shivam472438" class="greenicon" target="_blank">
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div id="abt_button">
+         <a href="mailto:st472438@gmail.com"><p id="cnt">
+            <i class="fa-regular fa-envelope"></i> &nbsp; Contact Me
+          </p></a>
+        </div>
+      </div>
+      <div id="information">
+        <div class="whitetxt" id="intro">
+            <i class="bi bi-boxes"></i> &nbsp;&nbsp; Skills
+        </div>
+        <div id="intro_text" class="whitetxt">
+          <p>
+            My<span class="colorblue"> Advantages </span>
+          </p>
+        </div>
+        <div id="skillsset">
+            <div id="prog">
+            <div class="zoom"><div class="icon_set d_set"><img class="skils dskils" src="images/C.png" alt=""></div><h4 class="whitetxt desc">C Programming</h4></div>
+            <div class="zoom"><div class="icon_set d_set"><img class="skils dskils" src="images/CPP.png" alt=""></div><h4 class="whitetxt desc">C++ Programming</h4></div>
+            <div class="zoom"><div class="icon_set"><img class="skils" src="images/HTML.png" alt=""></div><h4 class="whitetxt desc">HTML 5</h4></div></div>
+            <!-- <div class="zoom"><div class="icon_set"><img class="skils" src="images/HTML.png" alt=""></div><h4 class="whitetxt desc">HTML 5</h4></div> -->
+            <div class="zoom"><div class="icon_set"><img class="skils" src="images/css 3_.png" alt=""></div><h4 class="whitetxt desc">CSS 3</h4></div>
+            <div class="zoom"><div class="icon_set"><img class="skils" src="images/java script_.png" alt=""></div><h4 class="whitetxt desc">JAVASCRIPT</h4></div>
+            <div class="zoom"><div class="icon_set"><img class="skils" src="images/Bootstrap.png" alt=""></div><h4 class="whitetxt desc">BOOTSTRAP 5</h4></div>
+        </div>
+        <nav>
+        <div id="buttons">
+          <div id="btn"><a class="whitetxt" onclick="none()"><i class="bi bi-list"></i></a></div>
+          <ul id="nav_ul" class="dsply">
+            <a > <li class="nav_list zoom " onclick="display_index();"><i class="bi bi-house"></i></li> </a>
+           <a > <li class="nav_list zoom " onclick="display_about();"><i class="fa-regular fa-user"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_resume();"><i class="bi bi-file-earmark"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_service();"><i class="fa-solid fa-pen-ruler"></i></li></a>
+           <a > <li class="nav_list zoom  current" onclick="display_skills();"><i class="bi bi-boxes"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_project();"><i class="bi bi-list-ul"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_testi();"><i class="bi bi-file-earmark-bar-graph"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_Contact();"><i class="fa-regular fa-envelope"></i></li></a>
+            
+          </ul>
+        </div>
+        <div id="next" class="zoom" onclick="next()"><i class="fa-solid fa-angle-right fa-sm"></i>
+        </div>
+      </nav>
+      </div>
+        
+        
+        
+    </div>
+    <div id="projectbody" class="box" style="position: absolute;">
+      <div id="SelfCard">
+        <div id="_abt" class="whitetxt">
+          <h1 id="name">Shivam Tiwari</h1>
+          <h4 id="webdev">Web Developer</h4>
+        </div>
+        <div id="abt">
+          <div id="about_photograph">
+            <img
+              id="mypic"
+              src="images/IMG20210406135130.jpg"
+              alt="Picture Of Shivam Tiwari"
+            />
+            <h6 id="my_mail" class="whitetxt">
+              <a class="whitetxt" href="mailto:st472438@gmail.com"
+                >st472438@gmail.com</a
+              >
+            </h6>
+            <h4 id="my_address" class="whitetxt">Lucknow, U.P. , INDIA</h4>
+            <p id="copyright" class="cpytxt">
+              &copy; 2023 Shivam. All Right Reserved.
+            </p>
+          </div>
+          <div id="abt_icons">
+            <ul>
+              <a
+                href="https://www.instagram.com/_pndt_ji/"
+                class="greenicon"
+                target="_blank"
+              >
+                <li class="social_icons zoom"><i class="fa-brands fa-instagram"></i></li>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/shivam-tiwari-1a31a6253/"
+                class="greenicon"
+                target="_blank"
+                ><li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-linkedin"></i></li
+              ></a>
+
+              <a
+                href="https://github.com/Pndt-ji"
+                target="_blank"
+                class="greenicon"
+              >
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-github"></i></li
+              ></a>
+
+              <a href="https://twitter.com/Shivam472438" class="greenicon" target="_blank">
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div id="abt_button">
+         <a href="mailto:st472438@gmail.com"><p id="cnt">
+            <i class="fa-regular fa-envelope"></i> &nbsp; Contact Me
+          </p></a>
+        </div>
+      </div>
+      <div id="information">
+        <div class="whitetxt" id="intro">
+            <i class="bi bi-list-ul"></i></i> &nbsp;&nbsp; Projects
+        </div>
+        <div id="intro_text" class="whitetxt">
+          <p>
+            Featured<span class="colorblue"> Projects </span>
+          </p>
+        </div>
+        <div id="Projects" class="whitetxt">
+            <div class="Pro_containerr">
+               <a class="whitetxt" target="_blank" href="https://pndt-ji.github.io/ShivamTiwari.github.io/"> <div class="Pro_container">
+                <img class="pro_img zoom" src="images/RahulRoy.png" alt="Website Thumbnail"></div>
+                <h4 class="pro_desp">PHOTOGRAPHY WEBSITE</h4> 
+            </div></a>
+            <div class="Pro_containerr">
+            <div class="Pro_container">
+              <a class="whitetxt" href="https://pndt-ji.github.io/Shivam.github.io/" target="_blank">
+                <img class="pro_img zoom" src="images/temp.png" alt="Buisness Website Template"> </div>
+                <h4 class="pro_desp">Template Website</h4>
+            </div></a>
+            <div class="Pro_containerr">
+                <div class="Pro_container">
+                    <img class="pro_img zoom" src="images/temp.png" alt="Buisness Website Template"> </div>
+                    <h4 class="pro_desp">Template Website</h4>
+                </div>
+        </div>
+        <nav>
+        <div id="buttonss">
+          <div id="btn"><a class="whitetxt" onclick="none()"><i class="bi bi-list"></i></a></div>
+          <ul id="nav_ul" class="dsply">
+            <a > <li class="nav_list zoom " onclick="display_index();"><i class="bi bi-house"></i></li> </a>
+           <a > <li class="nav_list zoom " onclick="display_about();"><i class="fa-regular fa-user"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_resume();"><i class="bi bi-file-earmark"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_service();"><i class="fa-solid fa-pen-ruler"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_skills();"><i class="bi bi-boxes"></i></li></a>
+           <a > <li class="nav_list zoom  current" onclick="display_project();"><i class="bi bi-list-ul"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_testi();"><i class="bi bi-file-earmark-bar-graph"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_Contact();"><i class="fa-regular fa-envelope"></i></li></a>
+            
+          </ul>
+        </div>
+        <div id="next" class="zoom" onclick="next()"><i class="fa-solid fa-angle-right fa-sm"></i>
+        </div>
+      </nav>
+      </div>
+        
+        
+        
+    </div>
+    <div id="testibody" class="box" style="position: absolute;">
+      <div id="SelfCard">
+        <div id="_abt" class="whitetxt">
+          <h1 id="name">Shivam Tiwari</h1>
+          <h4 id="webdev">Web Developer</h4>
+        </div>
+        <div id="abt">
+          <div id="about_photograph">
+            <img
+              id="mypic"
+              src="images/IMG20210406135130.jpg"
+              alt="Picture Of Shivam Tiwari"
+            />
+            <h6 id="my_mail" class="whitetxt">
+              <a class="whitetxt" href="mailto:st472438@gmail.com"
+                >st472438@gmail.com</a
+              >
+            </h6>
+            <h4 id="my_address" class="whitetxt">Lucknow, U.P. , INDIA</h4>
+            <p id="copyright" class="cpytxt">
+              &copy; 2023 Shivam. All Right Reserved.
+            </p>
+          </div>
+          <div id="abt_icons">
+            <ul>
+              <a
+                href="https://www.instagram.com/_pndt_ji/"
+                class="greenicon"
+                target="_blank"
+              >
+                <li class="social_icons zoom"><i class="fa-brands fa-instagram"></i></li>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/shivam-tiwari-1a31a6253/"
+                class="greenicon"
+                target="_blank"
+                ><li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-linkedin"></i></li
+              ></a>
+
+              <a
+                href="https://github.com/Pndt-ji"
+                target="_blank"
+                class="greenicon"
+              >
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-github"></i></li
+              ></a>
+
+              <a href="https://twitter.com/Shivam472438" class="greenicon" target="_blank">
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div id="abt_button">
+         <a href="mailto:st472438@gmail.com"><p id="cnt">
+            <i class="fa-regular fa-envelope"></i> &nbsp; Contact Me
+          </p></a>
+        </div>
+      </div>
+      <div id="information">
+        <div class="whitetxt" id="intro">
+            <i class="bi bi-file-earmark-bar-graph"></i> &nbsp;&nbsp; Testimonials
+        </div>
+        <div id="intro_text" class="whitetxt">
+          <p>
+            Trusted By<span class="colorblue"> Many </span>
+          </p>
+        </div>
+        <div id="testi_cover">
+            <div class="testi_content zum testi_card">
+                <div id="testi_client">
+                    <div id="testi_client_img" class="whitetxt client_img"><i class="fa-regular fa-user client_img"></i></div>
+                    <div id="test_client_name">
+                        <ul id="Creator">
+                            <li class="name whitetxt">Shubham Singhania</li>
+                            <li class="deg whitetxt">Founder <span class="colorblue">Galactic Ark</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="testi_review">
+                    <p id="rvw" class="whitetxt">If you need a web developer who can handle any project, look no further than Shivam Tiwari. He is a master of web development, with extensive knowledge and experience in various languages, frameworks, and tools. He created a complex and dynamic website for my business, with features such as e-commerce, chatbot, analytics, and more. He was very flexible, adaptive, and collaborative throughout the process. He delivered the project on time, on budget, and highly quality. Shivam Tiwari is the best web developer I have ever worked with.</p>
+                </div>
+            </div>
+
+            <div class="testi_content zum testi_card" style="display: none;">
+              <div id="testi_client">
+                  <div id="testi_client_img" class="whitetxt client_img"><i class="fa-regular fa-user client_img"></i></div>
+                  <div id="test_client_name">
+                      <ul id="Creator">
+                          <li class="name whitetxt">Rahul Roy</li>
+                          <li class="deg whitetxt">Owner<span class="colorblue"> RahulRoy Photography</span></li>
+                      </ul>
+                  </div>
+              </div>
+              
+              <div id="testi_review">
+                  <p id="rvw" class="whitetxt">Shivam Tiwari is impressively dedicated to mastering front end development. Their skills are growing by leaps and bounds, and they bring enthusiasm to every project. A fantastic team player and always eager to learn. Keep up the great work, Shivam !</p>
+              </div>
+          </div>
+
+          <div class="testi_content zum testi_card"style="display: none;">>
+            <div id="testi_client">
+                <div id="testi_client_img" class="whitetxt client_img"><i class="fa-regular fa-user client_img"></i></div>
+                <div id="test_client_name">
+                    <ul id="Creator">
+                        <li class="name whitetxt">Surabhi Agarwal</li>
+                        <li class="deg whitetxt">Student<span class="colorblue"> B.B.D.U.</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="testi_review">
+                <p id="rvw" class="whitetxt">Shivam Tiwari is a top-notch front end developer in the making. Their dedication and creativity are impressive. They've been a great collaborator and quick problem solver. Excited to see their future projects!</p>
+            </div>
+        </div>
+            <div id="navi">
+                <div class="bar" onclick="prew()"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="whitetxt"> <p id="numm" class=" testi_no">01/03</p></div>
+                <div class="bar" onclick="nxt()"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+            
+            
+            
+        </div>
+        <nav>
+        <div id="buttons">
+          <div id="btn"><a class="whitetxt" onclick="none()"><i class="bi bi-list"></i></a></div>
+          <ul id="nav_ul" class="dsply">
+            <a > <li class="nav_list zoom " onclick="display_index();"><i class="bi bi-house"></i></li> </a>
+           <a > <li class="nav_list zoom " onclick="display_about();"><i class="fa-regular fa-user"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_resume();"><i class="bi bi-file-earmark"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_service();"><i class="fa-solid fa-pen-ruler"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_skills();"><i class="bi bi-boxes"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_project();"><i class="bi bi-list-ul"></i></li></a>
+           <a > <li class="nav_list zoom  current" onclick="display_testi();"><i class="bi bi-file-earmark-bar-graph"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_Contact();"><i class="fa-regular fa-envelope"></i></li></a>
+            
+          </ul>
+        </div>
+        <div id="next" class="zoom" onclick="next()"><i class="fa-solid fa-angle-right fa-sm"></i>
+        </div>
+      </nav>
+      </div>
+        
+        
+        
+    </div>
+    <div id="Contactbody" class="box" style="position: absolute;">
+      <div id="SelfCard">
+        <div id="_abt" class="whitetxt">
+          <h1 id="name">Shivam Tiwari</h1>
+          <h4 id="webdev">Web Developer</h4>
+        </div>
+        <div id="abt">
+          <div id="about_photograph">
+            <img
+              id="mypic"
+              src="images/IMG20210406135130.jpg"
+              alt="Picture Of Shivam Tiwari"
+            />
+            <h6 id="my_mail" class="whitetxt">
+              <a class="whitetxt" href="mailto:st472438@gmail.com"
+                >st472438@gmail.com</a
+              >
+            </h6>
+            <h4 id="my_address" class="whitetxt">Lucknow, U.P. , INDIA</h4>
+            <p id="copyright" class="cpytxt">
+              &copy; 2023 Shivam. All Right Reserved.
+            </p>
+          </div>
+          <div id="abt_icons">
+            <ul>
+              <a
+                href="https://www.instagram.com/_pndt_ji/"
+                class="greenicon"
+                target="_blank"
+              >
+                <li class="social_icons zoom"><i class="fa-brands fa-instagram"></i></li>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/shivam-tiwari-1a31a6253/"
+                class="greenicon"
+                target="_blank"
+                ><li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-linkedin"></i></li
+              ></a>
+
+              <a
+                href="https://github.com/Pndt-ji"
+                target="_blank"
+                class="greenicon"
+              >
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-github"></i></li
+              ></a>
+
+              <a href="https://twitter.com/Shivam472438" class="greenicon" target="_blank">
+                <li class="social_icons zoom greenicon">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div id="abt_button">
+         <a href="mailto:st472438@gmail.com"><p id="cnt">
+            <i class="fa-regular fa-envelope"></i> &nbsp; Contact Me
+          </p></a>
+        </div>
+      </div>
+      <div id="information">
+        <div class="whitetxt" id="intro">
+            <i class="fa-regular fa-envelope"></i> &nbsp;&nbsp; Contact Me
+        </div>
+        <div id="intro_text" class="whitetxt">
+          <p>
+            Let's Work<span class="colorblue"> Together </span>
+          </p>
+        </div>
+        <div id="contact_me_mail" class="whitetxt">
+            <p>st472438@gmail.com</p>
+        </div>
+        <div id="my_information" class="whitetxt">
+            <div class="para_div">
+                <p class="para_head">Name:</p>
+                <p class="para_body">Shivam Tiwari</p>
+            </div>
+            <div class="para_div">
+                <p class="para_head">Email:</p>
+               <a  href="mailto:st472438@gmail.com"><p class="para_body">st472438@gmail.com</p></a> 
+            </div>
+            <div class="para_div">
+                <p class="para_head">Contact/Whatsapp:</p>
+               <a  href="tel:+916388488787"><p class="para_body">+91-6388488787</p></a> 
+            </div>
+            <div class="para_div">
+                <p class="para_head">linkedin:</p>
+               <a  href="https://www.linkedin.com/in/shivam-tiwari-1a31a6253/"><p class="para_body">SHIVAM TIWARI</p></a> 
+            </div>
+            <div class="para_div">
+                <p class="para_head">GitHub:</p>
+               <a  href="https://www.linkedin.com/in/shivam-tiwari-1a31a6253/"><p class="para_body">SHIVAM TIWARI</p></a> 
+            </div>
+        </div>
+        <nav>
+        <div id="buttons">
+          <div id="btn"><a class="whitetxt" onclick="none()"><i class="bi bi-list"></i></a></div>
+          <ul id="nav_ul" class="dsply">
+            <a > <li class="nav_list zoom " onclick="display_index();"><i class="bi bi-house"></i></li> </a>
+           <a > <li class="nav_list zoom " onclick="display_about();"><i class="fa-regular fa-user"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_resume();"><i class="bi bi-file-earmark"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_service();"><i class="fa-solid fa-pen-ruler"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_skills();"><i class="bi bi-boxes"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_project();"><i class="bi bi-list-ul"></i></li></a>
+           <a > <li class="nav_list zoom " onclick="display_testi();"><i class="bi bi-file-earmark-bar-graph"></i></li></a>
+           <a > <li class="nav_list zoom  current" onclick="display_Contact();"><i class="fa-regular fa-envelope"></i></li></a>
+            
+          </ul>
+        </div>
+        <div id="next" class="zoom" onclick="next()"><i class="fa-solid fa-angle-right fa-sm"></i>
+        </div>
+      </nav>
+      </div>
+        
+        
+        
+    </div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
