@@ -163,7 +163,7 @@ function prew(){
   let MenuOptions = document.getElementsByClassName("iconANCHOR");
   function menuCOLOR(){
     
-    for(let i = 0; i< 7 ; i++){
+    for(let i = 0; i<=7 ; i++){
         MenuOptions[i].classList.remove("current");
     }
     MenuOptions[count].classList.add("current");
