@@ -4,14 +4,14 @@ console.log(slides);
 
 slides.forEach(
     (slide,index)=>{
-        slide.style.left =`${index *100}%`;
+        slide.style.left =`${(index *110)}%`;
     }
 )
 
 function slideImage (){
     slides.forEach(
         (slide)=>{
-            slide.style.transform=`translateX(-${count * 100}%)`
+            slide.style.transform=`translateX(-${(count * 110)}%)`
         }
     )
 }
@@ -113,9 +113,31 @@ function prew(){
     document.getElementById("numm").innerHTML=`0${testi_flag+1}/03`;
 }
 
+// window.onkeypress = function(event) {
+//     if(event.key==="ArrowLeft"){
+//         console.log("true");
+//         if(count==0){
+//             count=7;
+//             slideImage();
+//         }
+//         else{
+//             count--;
+//             slideImage();
+//         }
+//     }
+//     else if(event.key==="ArrowRight"){
+//         if(count==7){
+//             count=0;
+//             slideImage();
+//         }
+//         else{
+//             count++;
+//             slideImage();
+//         }
+//     }
+//   };
   window.addEventListener("keyup", function(event) {
-    if (event.key === "ArrowUp") {
-    } else if (event.key === "ArrowLeft") {
+    if (event.key === "ArrowLeft") {
         
         if(count==0){
             count=7;
@@ -136,3 +158,14 @@ function prew(){
         }
     }
   });
+  
+  let MenuOptions = document.getElementsByClassName("iconANCHOR");
+  function menuCOLOR(){
+    console.log(MenuOptions);
+    
+    for(let i = 0; i< count ; i++){
+        MenuOptions[i].classList.remove("current");
+    }
+    MenuOptions[count].classList.add("current");
+  }
+  
