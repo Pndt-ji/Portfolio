@@ -12,6 +12,7 @@ function slideImage (){
     slides.forEach(
         (slide)=>{
             slide.style.transform=`translateX(-${(count * 110)}%)`
+            menuCOLOR();
         }
     )
 }
@@ -161,7 +162,6 @@ function prew(){
   
   let MenuOptions = document.getElementsByClassName("iconANCHOR");
   function menuCOLOR(){
-    console.log(MenuOptions);
     
     for(let i = 0; i< 7 ; i++){
         MenuOptions[i].classList.remove("current");
