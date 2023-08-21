@@ -163,7 +163,7 @@ function prew(){
   function menuCOLOR(){
     console.log(MenuOptions);
     
-    for(let i = 0; i< count ; i++){
+    for(let i = 0; i< 7 ; i++){
         MenuOptions[i].classList.remove("current");
     }
     MenuOptions[count].classList.add("current");
