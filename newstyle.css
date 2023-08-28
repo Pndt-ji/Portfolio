@@ -751,6 +751,12 @@ a {
             #contact_me_mail {
                 font-size: 3rem;
             }
+              #SelfCard {
+    height: 96vh;
+}
+#databody {
+  height: auto;
+}
           }
     
           @media (max-width: 500px) {
