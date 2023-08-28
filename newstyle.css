@@ -976,6 +976,95 @@ a {
             }
 }
 
+@media only screen and (max-width: 925px) and (orientation: landscape) {
+  html {
+    font-size: 32.5%;
+  }
+  #subintro {
+    font-size: 2.9rem;
+}
+.year {
+    font-size: 2.5rem;
+}
+.heading {
+    font-size: 4rem;
+}
+.subtxt {
+    font-size: 2.5rem;
+}
+#grad {
+    margin-bottom: 16rem;
+}
+#container {
+    padding-left: 3rem;
+    
+}
+.circle {
+    margin: -1.9rem;
+}
+#btm {
+    font-size: 2.5rem;
+}
+#wd {
+    height: 22rem;
+}
+#skillsset {
+  margin-top: 1rem;
+}
+.desc {
+    font-size: 2rem;
+}
+.alg{
+    text-align: center;
+}
+.pro_desp {
+    font-size: 2.5rem;
+}
+.pro_img {
+    width: 49rem;
+}
+.Pro_container {
+    width: 49rem;
+}
+#Projects {
+  max-height: 42rem;
+}
+#my_information {
+    justify-content: normal;
+}
+.para_body {
+    font-size: 3.2rem;
+}
+.para_head {
+    font-size: 2.6rem;
+}
+#contact_me_mail {
+    font-size: 3rem;
+}
+#SelfCard {
+  height: 110vh;
+}
+#databody {
+  margin-left: 9rem;
+}
+#databody {
+  height: 110vh;
+}
+#nav {
+  z-index: 4;
+  position: relative;
+  margin-left: auto;
+  bottom: 9rem;
+  left: 143%;
+  margin-right: auto;
+}
+#next {
+  position: relative;
+  left: 50%;
+  bottom: 5rem;
+}
+}
+
 a:hover{
     color:#14CF7F
 }
