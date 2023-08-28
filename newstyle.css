@@ -769,7 +769,7 @@ a {
             }
             #databody {
                 /* border: 10px solid red; */
-                height: auto;
+                height: 100vh;
                 width: 59vw;
                 overflow-y: auto;
                 overflow-x:hidden ;
